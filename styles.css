@@ -1,0 +1,81 @@
+/* Reset das margens e preenchimento */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo do corpo */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f0f7; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Container principal da calculadora */
+.calculator-container {
+    background-color: #ffffff; 
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+}
+
+/* Título */
+.calculator-container h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #da95d5; 
+}
+
+/* Estilo */
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #9b6d9b; 
+}
+
+/* Estilo dos campos de entrada */
+input, select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #efc8b1; 
+    border-radius: 5px;
+    background-color: #fef6f6; 
+}
+
+/* Estilo do botão de calcular */
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #da95d5; 
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+/* Efeito hover */
+button:hover {
+    background-color: #c67bbf; 
+}
+
+/* Estilo da área de resultado */
+#result {
+    margin-top: 20px;
+    text-align: center;
+}
+
+#result h2 {
+    color: #da95d5; 
+}
+
+#result p {
+    font-size: 18px;
+    color: #9b6d9b; 
+}
